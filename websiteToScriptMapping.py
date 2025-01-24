@@ -8,9 +8,9 @@ database_name = "bxss-database"      # Replace with your database name
 collection_name = "findings"  # Replace with your collection name
 pp = pprint.PrettyPrinter(indent=2)
 
-dataTMP=[["scripts", "is BB"]]
+dataTMP=[["Website", "Scripts"]]
 
-def createGroundTruth():
+def websiteToScriptMap():
     try:
         # Connect to MongoDB
         client = MongoClient(mongo_uri)
@@ -23,27 +23,34 @@ def createGroundTruth():
         documents = collection.find()
 
         # Print each document
-        scripts={}
+        siteToScript={}
+        scriptToSite={}
         for document in documents:
             # pp.pprint(document)
-            allScripts=set()
-            allScripts.add(document["script"])
+            if document["base_url"] not in siteToScript:
+                siteToScript[document["base_url"]]=set()
+            siteToScript[document["base_url"]].add(document["script"])
+
+            if document["script"] not in scriptToSite:
+                scriptToSite[document["script"]]=set()
+            scriptToSite[document["script"]].add(document["base_url"])
+
+
             for taint in document["taint"]:
                 for flow in taint["flow"]:
                     if flow["location"]["filename"] != "":
-                        allScripts.add(flow["location"]["filename"])
-            for script in allScripts:
-                if script in scripts:
-                    scripts[script].append(document)
-                else:
-                    scripts[script]=[document]
+                        siteToScript[document["base_url"]].add(flow["location"]["filename"])
 
-            # if document["script"] in scripts:
-            #     scripts[document["script"]].append(document)
-            # else:
-            #     scripts[document["script"]]=[document]
-        for script,values in scripts.items():
-            dataTMP.append([script, 0])
+                        if flow["location"]["filename"] not in scriptToSite:
+                            scriptToSite[flow["location"]["filename"]]=set()
+                        scriptToSite[flow["location"]["filename"]].add(document["base_url"])
+
+        # for website,values in siteToScript.items():
+        #     dataTMP.append([website, "   ".join(list(values))])
+        # pp.pprint(siteToScript)
+        for k,v in scriptToSite.items():
+            if len(v)>1:
+                print(k, v)
 
         # with open("groundTruth.csv", mode='w', newline='') as file:
         #     writer = csv.writer(file)
@@ -56,4 +63,4 @@ def createGroundTruth():
         print(f"An error occurred: {e}")
 
 # Call the function to read items
-createGroundTruth()
+websiteToScriptMap()

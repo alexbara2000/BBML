@@ -32,6 +32,7 @@ def read_all_items():
             # else:
             #     scripts[document["script"]]=[document]
             allScripts=set()
+            allScripts.add(document["script"])
             for taint in document["taint"]:
                 for flow in taint["flow"]:
                     if flow["location"]["filename"] != "":
@@ -41,6 +42,8 @@ def read_all_items():
                     scripts[script].append(document)
                 else:
                     scripts[script]=[document]
+
+
         for script,values in scripts.items():
             numberOfReports=len(values)
             numberOfTaints=0
