@@ -8,9 +8,8 @@ database_name = "bxss-database"      # Replace with your database name
 collection_name = "findings"  # Replace with your collection name
 pp = pprint.PrettyPrinter(indent=2)
 
-allSinksAndSources=["element.after","element.before","EventSource","Function.ctor","Range.createContextualFragment(fragment)","WebSocket","WebSocket.send","XMLHttpRequest.open(password)","XMLHttpRequest.open(url)","XMLHttpRequest.open(username)","XMLHttpRequest.send","XMLHttpRequest.setRequestHeader(name)","XMLHttpRequest.setRequestHeader(value)","a.href","area.href","document.cookie","document.writeln","document.write","element.style","embed.src","eval","eventHandler","fetch.body","fetch.url","form.action","iframe.src","iframe.srcdoc","img.src","img.srcset","innerHTML","insertAdjacentHTML","insertAdjacentText","localStorage.setItem","localStorage.setItem(key)","location.assign","location.hash","location.host","location.href","location.pathname","location.port","location.protocol","location.replace","location.search","media.src","MessagePort.PostMessage","navigator.sendBeacon(body)","navigator.sendBeacon(url)","object.data","outerHTML","script.innerHTML","script.src","script.text","script.textContent","sessionStorage.setItem","sessionStorage.setItem(key)","setInterval","setTimeout","source","srcset","track.src","window.open","window.postMessage","KeyboardEvent.charCode","KeyboardEvent.keyCode", "KeyboardEvent.key","KeyboardEvent.altKey","KeyboardEvent.ctrlKey","MouseEvent.screenX","MouseEvent.screenY","MouseEvent.pageX","MouseEvent.pageY","MouseEvent.clientX","MouseEvent.clientY","MouseEvent.x","MouseEvent.y","MouseEvent.offsetX","MouseEvent.offsetY","MouseEvent.ctrlKey","MouseEvent.shiftKey","MouseEvent.region","MouseEvent.movementX","MouseEvent.movementY", "MouseEvent.movementX","MouseEvent.movementY","KeyboardEvent.shiftKey","KeyboardEvent.metaKey","KeyboardEvent.location","KeyboardEvent.repeat","KeyboardEvent.isComposing","MouseEvent.altKey","MouseEvent.metaKey","MouseEvent.button","MouseScrollEvent.axis","PointerEvent.pointerId","PointerEvent.width","PointerEvent.height","PointerEvent.pressure","PointerEvent.tangentialPressure","PointerEvent.tiltX","PointerEvent.tiltY","PointerEvent.twist","PointerEvent.isPrimary","Touch.identifier","Touch.screenX","Touch.screenY","Touch.clientX","Touch.clientY","Touch.pageX","Touch.pageY","Touch.radiusX","Touch.radiusY","Touch.rotationAngle","Touch.force","TouchEvent.altKey","TouchEvent.metaKey","TouchEvent.ctrlKey","TouchEvent.shiftKey", "Worker.PostMessage", "HTMLInputElemnet.setValue", "TextEncoder.encode", "BrowsingContext.PostMessage", "TypedArray.setElem"]
-data=[["scripts"]+allSinksAndSources]
-# dataTMP=[["scripts", "is BB"]]
+allFeatures=["number of taint reports","number of taints", "total taint flows","element.after","element.before","EventSource","Function.ctor","Range.createContextualFragment(fragment)","WebSocket","WebSocket.send","XMLHttpRequest.open(password)","XMLHttpRequest.open(url)","XMLHttpRequest.open(username)","XMLHttpRequest.send","XMLHttpRequest.setRequestHeader(name)","XMLHttpRequest.setRequestHeader(value)","a.href","area.href","document.cookie","document.writeln","document.write","element.style","embed.src","eval","eventHandler","fetch.body","fetch.url","form.action","iframe.src","iframe.srcdoc","img.src","img.srcset","innerHTML","insertAdjacentHTML","insertAdjacentText","localStorage.setItem","localStorage.setItem(key)","location.assign","location.hash","location.host","location.href","location.pathname","location.port","location.protocol","location.replace","location.search","media.src","MessagePort.PostMessage","navigator.sendBeacon(body)","navigator.sendBeacon(url)","object.data","outerHTML","script.innerHTML","script.src","script.text","script.textContent","sessionStorage.setItem","sessionStorage.setItem(key)","setInterval","setTimeout","source","srcset","track.src","window.open","window.postMessage","KeyboardEvent.charCode","KeyboardEvent.keyCode", "KeyboardEvent.key","KeyboardEvent.altKey","KeyboardEvent.ctrlKey","MouseEvent.screenX","MouseEvent.screenY","MouseEvent.pageX","MouseEvent.pageY","MouseEvent.clientX","MouseEvent.clientY","MouseEvent.x","MouseEvent.y","MouseEvent.offsetX","MouseEvent.offsetY","MouseEvent.ctrlKey","MouseEvent.shiftKey","MouseEvent.region","MouseEvent.movementX","MouseEvent.movementY", "MouseEvent.movementX","MouseEvent.movementY","KeyboardEvent.shiftKey","KeyboardEvent.metaKey","KeyboardEvent.location","KeyboardEvent.repeat","KeyboardEvent.isComposing","MouseEvent.altKey","MouseEvent.metaKey","MouseEvent.button","MouseScrollEvent.axis","PointerEvent.pointerId","PointerEvent.width","PointerEvent.height","PointerEvent.pressure","PointerEvent.tangentialPressure","PointerEvent.tiltX","PointerEvent.tiltY","PointerEvent.twist","PointerEvent.isPrimary","Touch.identifier","Touch.screenX","Touch.screenY","Touch.clientX","Touch.clientY","Touch.pageX","Touch.pageY","Touch.radiusX","Touch.radiusY","Touch.rotationAngle","Touch.force","TouchEvent.altKey","TouchEvent.metaKey","TouchEvent.ctrlKey","TouchEvent.shiftKey", "Worker.PostMessage", "HTMLInputElemnet.setValue", "TextEncoder.encode", "BrowsingContext.PostMessage", "TypedArray.setElem"]
+data=[["scripts"]+allFeatures]
 
 def read_all_items():
     try:
@@ -28,34 +27,44 @@ def read_all_items():
         scripts={}
         for document in documents:
             # pp.pprint(document)
-            if document["script"] in scripts:
-                scripts[document["script"]].append(document)
-            else:
-                scripts[document["script"]]=[document]
+            # if document["script"] in scripts:
+            #     scripts[document["script"]].append(document)
+            # else:
+            #     scripts[document["script"]]=[document]
+            allScripts=set()
+            for taint in document["taint"]:
+                for flow in taint["flow"]:
+                    if flow["location"]["filename"] != "":
+                        allScripts.add(flow["location"]["filename"])
+            for script in allScripts:
+                if script in scripts:
+                    scripts[script].append(document)
+                else:
+                    scripts[script]=[document]
         for script,values in scripts.items():
-            numberFlows=len(values)
-            scriptInfo={key:0 for key in allSinksAndSources}
+            numberOfReports=len(values)
+            numberOfTaints=0
+            numberOfFlows=0
+            scriptInfo={key:0 for key in allFeatures}
             for value in values:
                 for source in value["sources"]:
                     scriptInfo[source]+=1
                 scriptInfo[value["sink"]]+=1
-            # print(scriptInfo)
+                numberOfTaints+=len(value["taint"])
+                for flow in value["taint"]:
+                    numberOfFlows+=len(flow)
+            scriptInfo["number of taint reports"]=numberOfReports
+            scriptInfo["number of taints"]=numberOfTaints
+            scriptInfo["total taint flows"]=numberOfFlows
             data.append([0]*len(data[0]))
             for index in range(1,len(data[0])):
                 data[-1][index]=scriptInfo[data[0][index]]
             data[-1][0]=script
-            # dataTMP.append([script, 0])
-        # print(data)
 
         with open("trainData.csv", mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(data)
 
-        # with open("groundTruth.csv", mode='w', newline='') as file:
-        #     writer = csv.writer(file)
-        #     writer.writerows(dataTMP)
-
-        # script, number of flows, numberSources, numberSinks, isBB
         # Close the connection
         client.close()
 
