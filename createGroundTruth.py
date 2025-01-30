@@ -8,7 +8,7 @@ database_name = "bxss-database"      # Replace with your database name
 collection_name = "findings"  # Replace with your collection name
 pp = pprint.PrettyPrinter(indent=2)
 
-dataTMP=[["scripts", "is BB"]]
+dataTMP=[["domain","scripts", "is BB"]]
 
 def createGroundTruth():
     try:
@@ -26,12 +26,13 @@ def createGroundTruth():
         scripts={}
         for document in documents:
             # pp.pprint(document)
+            domain=document["domain"]
             allScripts=set()
-            allScripts.add(document["script"])
+            allScripts.add((domain,document["script"]))
             for taint in document["taint"]:
                 for flow in taint["flow"]:
                     if flow["location"]["filename"] != "":
-                        allScripts.add(flow["location"]["filename"])
+                        allScripts.add((domain,flow["location"]["filename"]))
             for script in allScripts:
                 if script in scripts:
                     scripts[script].append(document)
@@ -43,7 +44,8 @@ def createGroundTruth():
             # else:
             #     scripts[document["script"]]=[document]
         for script,values in scripts.items():
-            dataTMP.append([script, 0])
+            dataTMP.append([script[0], script[1], 0])
+        # print(dataTMP)
 
         # with open("groundTruth.csv", mode='w', newline='') as file:
         #     writer = csv.writer(file)

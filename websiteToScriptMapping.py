@@ -49,8 +49,8 @@ def websiteToScriptMap():
         #     dataTMP.append([website, "   ".join(list(values))])
         # pp.pprint(siteToScript)
         for k,v in scriptToSite.items():
-            if len(v)>1:
-                print(k, v)
+            # if len(v)>1:
+            print(k, v)
 
         # with open("groundTruth.csv", mode='w', newline='') as file:
         #     writer = csv.writer(file)
