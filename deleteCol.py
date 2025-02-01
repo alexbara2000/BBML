@@ -14,7 +14,7 @@ def delete_collection():
         db = client[database_name]
 
         # Delete the collection
-        db.drop_collection(collection_name)
+        # db.drop_collection(collection_name)
         print(f"The collection '{collection_name}' has been deleted.")
 
         # Close the connection
