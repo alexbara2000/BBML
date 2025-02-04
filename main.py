@@ -8,21 +8,16 @@ from sklearn.metrics import accuracy_score, classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-# Load the data
+# Load data
 X = pd.read_csv("trainData.csv")
 y = pd.read_csv("groundTruth.csv")
-
-# Merge the datasets on the first two columns
 merged_data = pd.merge(X, y, on=[X.columns[0], X.columns[1]])
 
-# Drop the ID columns after merging
+# split data
 X = merged_data.iloc[:, 2:-1]
 y = merged_data.iloc[:, -1]
-
-# Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Define classifiers and their parameter grids
 models = {
     "RandomForest": (RandomForestClassifier(random_state=42), {
         'classifier__n_estimators': [50, 100, 150],
@@ -52,7 +47,6 @@ models = {
     })
 }
 
-# Loop through models, perform GridSearchCV, and evaluate
 for model_name, (classifier, param_grid) in models.items():
     print(f"Running GridSearchCV for {model_name}...")
     pipeline = Pipeline([
@@ -66,7 +60,7 @@ for model_name, (classifier, param_grid) in models.items():
     print(f"Best Parameters for {model_name}: {grid_search.best_params_}")
     print(f"Best Cross-validation Accuracy for {model_name}: {grid_search.best_score_:.2f}")
 
-    # Evaluate on the test set
+    # Evaluate model
     best_pipeline = grid_search.best_estimator_
     y_pred = best_pipeline.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
