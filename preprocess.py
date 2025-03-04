@@ -25,7 +25,11 @@ def read_all_items():
 
         # Print each document
         scripts={}
+        i=0
         for document in documents:
+            if i%100==0:
+                print(i)
+            i+=1
             domain=document["domain"]
             allScripts=set()
             allScripts.add((domain,document["script"]))
@@ -39,7 +43,7 @@ def read_all_items():
                 else:
                     scripts[script]=[document]
 
-
+        print("done")
         for script,values in scripts.items():
             numberOfReports=len(values)
             numberOfTaints=0
