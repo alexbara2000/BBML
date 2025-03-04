@@ -1,3 +1,4 @@
+import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
@@ -25,7 +26,7 @@ models = {
         'classifier__min_samples_split': [2, 5, 10],
         'classifier__min_samples_leaf': [1, 2, 4]
     }),
-    "SVM": (SVC(random_state=42), {
+    "SVM": (SVC(random_state=42, probability=True), {
         'classifier__C': [0.1, 1, 10],
         'classifier__kernel': ['linear', 'rbf'],
         'classifier__gamma': ['scale', 'auto']
@@ -62,6 +63,8 @@ for model_name, (classifier, param_grid) in models.items():
 
     # Evaluate model
     best_pipeline = grid_search.best_estimator_
+    model_path = "models/"+model_name+".pkl"
+    joblib.dump(best_pipeline, model_path)
     y_pred = best_pipeline.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Test Set Accuracy for {model_name}: {accuracy:.2f}")
