@@ -10,8 +10,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 # Load data
-X = pd.read_csv("trainData.csv")
-y = pd.read_csv("groundTruth.csv")
+X = pd.read_csv("GroundTruth/trainData.csv")
+y = pd.read_csv("GroundTruth/groundTruth.csv")
 merged_data = pd.merge(X, y, on=[X.columns[0], X.columns[1]])
 
 # split data
