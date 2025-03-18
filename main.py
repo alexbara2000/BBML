@@ -64,9 +64,23 @@ for model_name, (classifier, param_grid) in models.items():
     # Evaluate model
     best_pipeline = grid_search.best_estimator_
     model_path = "models/"+model_name+".pkl"
-    joblib.dump(best_pipeline, model_path)
     y_pred = best_pipeline.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     print(f"Test Set Accuracy for {model_name}: {accuracy:.2f}")
     print(f"Classification Report for {model_name}:\n", classification_report(y_test, y_pred))
     print("-" * 50)
+
+    # Save model
+    best_params = grid_search.best_params_
+    best_classifier = classifier.set_params(**{
+        key.replace("classifier__", ""): value for key, value in best_params.items()
+    })
+
+    # Final training on full dataset
+    final_pipeline = Pipeline([
+        ("scaler", StandardScaler()),
+        ("classifier", best_classifier)
+    ])
+
+    final_pipeline.fit(X, y)
+    joblib.dump(final_pipeline, model_path)
