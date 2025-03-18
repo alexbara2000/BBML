@@ -66,7 +66,7 @@ def read_all_items():
             data[-1][1]=script[1]
             data[-1][0]=script[0]
 
-        with open("trainData.csv", mode='w', newline='') as file:
+        with open("processed_data.csv", mode='w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(data)
 
