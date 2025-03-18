@@ -52,8 +52,8 @@ if __name__ == "__main__":
     from sklearn.model_selection import train_test_split
 
     # Load data
-    X = pd.read_csv("trainData.csv")
-    y = pd.read_csv("groundTruth.csv")
+    X = pd.read_csv("GroundTruth/trainData.csv")
+    y = pd.read_csv("GroundTruth/groundTruth.csv")
     merged_data = pd.merge(X, y, on=[X.columns[0], X.columns[1]])
 
     # split data
