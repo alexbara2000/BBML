@@ -40,7 +40,7 @@ ngenix.net,https://mc.yandex.ru/metrika/tag.js,0.0
 www.sophos.com,https://edge.fullstory.com/s/fs.js,0.0
 www.reg.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.reg.ru,https://www.reg.ru/dist/head-scripts.baba7b8f34673d0a2524.js,0.0
-amplitude.com,https://amplitude.com/_next/static/chunks/pages/_app-53e5c03f7beda2e8.js,0.0
+amplitude.com,https://amplitude.com/_next/static/chunks/pages/_app-53e5c03f7beda2e8.js,1.0
 www.wiley.com,https://cdn.noibu.com/collect.js,0.0
 www.wiley.com,https://cmp.osano.com/AzZdRbSORDOOzF9W/aaa5a811-bd82-475e-ab7e-fd9f772f008d/osano.js,0.0
 www.stackadapt.com,https://script.crazyegg.com/pages/versioned/tracking-scripts/2e5b718b94824cf6268b787aef9203eb.js,0.0
@@ -80,17 +80,17 @@ www.amazon.ca,https://www.amazon.ca/,0.0
 www.change.org,https://assets.change.org/corgi/assets/js/8a3e995.es2015/vendors/misc.5b43fa5b638b53f225f6.js,1.0
 www.amazon.co.jp,https://www.amazon.co.jp/,0.0
 www.amazon.co.jp,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.co.jp,https://images-fe.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1.0
+www.amazon.co.jp,https://images-fe.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,0.0
 www.amazon.it,https://www.amazon.it/,0.0
 www.amazon.it,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.it,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1.0
+www.amazon.it,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,0.0
 www.cox.com,https://cdn.decibelinsight.net/i/14047/765302/di.js,0.0
 newrelic.com,https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-a25e3eb5ddc4e5a2479e96d7f64d3ce5br.js,0.0
 newrelic.com,https://cmp.osano.com/AzZVWOTJtg1WY32RK/cd381ba3-ebca-488c-a528-376a86764609/osano.js?language=en&variant=one,0.0
 newrelic.com,https://dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/opa-fb3af40832f517fdaf85fc8cb0f53fbdbr.js,0.0
 www.amazon.es,https://www.amazon.es/,0.0
 www.amazon.es,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.es,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1.0
+www.amazon.es,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,0.0
 www.state.gov,https://siteimproveanalytics.com/js/siteanalyze_6290244.js,0.0
 www.lenovo.com,https://bat.bing.com/p/insights/s/0.8.0,0.0
 www.lenovo.com,https://cdn.quantummetric.com/qscripts/quantum-lenovo.js,0.0
@@ -116,11 +116,11 @@ www.wyze.com,https://www.wyze.com/cdn/wpm/b2aeb0b9aw97b8b9c7p85cdc250me813a410m.
 www.rbc.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.rbc.ru,https://tns-counter.ru//ncc/counter.js,0.0
 www.bankofamerica.com,https://secure1.bac-assets.com/sparta/client/helper/spa-assets/components/utilities/client-helper/behbio/vendb/4.0.0/js/vendb.js,1.0
-www.bankofamerica.com,https://rail.bankofamerica.com/30306/hover.js?dt=login&r=0.7953794472015905,1.0
-www.bankofamerica.com,https://aero.bankofamerica.com/30306/kurt.js,1.0
+www.bankofamerica.com,https://rail.bankofamerica.com/30306/hover.js?dt=login&r=0.7953794472015905,0.0
+www.bankofamerica.com,https://aero.bankofamerica.com/30306/kurt.js,0.0
 www.bankofamerica.com,https://tags.tiqcdn.com/utag/bofa/main/prod/utag.119.js?utv=ut4.48.202502150156,0.0
-www.bankofamerica.com,https://tags.tiqcdn.com/utag/bofa/main/prod/utag.62.js?utv=ut4.48.202502150155,1.0
-www.mongodb.com,https://www.mongodb.com/_next/static/chunks/pages/_app-079af162c9c409c5.js,0.0
+www.bankofamerica.com,https://tags.tiqcdn.com/utag/bofa/main/prod/utag.62.js?utv=ut4.48.202502150155,0.0
+www.mongodb.com,https://www.mongodb.com/_next/static/chunks/pages/_app-079af162c9c409c5.js,1.0
 www.mongodb.com,https://euob.michiganrobotflower.com/sxp/i/1026a1528f8727653fd96984e7b20597.js,0.0
 shopee.co.th,https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__web_enhance_sap/2.23.193.js,1.0
 www.si.com,https://js.ad-score.com/score.min.js?pid=1000925&tt=g#tid=13539&l1=225291&l2=Quantcast_AdobeDyn&l3=7892492&l4=5161161&l5=&l6=&l7=0&utid=4C8D714B-4D72-C822-1AB5-09150B004A6D&creative_type=display&adid=ftdiv7892492&pub_app=&pub_domain=si.com&uid=&cb=507496.7808189593&pub_ts=1738806656&744170664,0.0
@@ -162,7 +162,7 @@ moscow.megafon.ru,https://moscow.megafon.ru/public/mainPageVendors.984b33a3.js,0
 indiamobiletube.com,https://mc.yandex.ru/metrika/tag.js,0.0
 indiamobiletube.com,https://3e9396098e.388533c5eb.com/a7038b432041613064217f1cb4d9d111.js,0.0
 edna.ru,https://mc.yandex.ru/metrika/tag.js,0.0
-www.barnesandnoble.com,https://prod.accdab.net/cdn/cs/ebiaklm7tP0ykOyjm7KGfgNcPyo.js,1.0
+www.barnesandnoble.com,https://prod.accdab.net/cdn/cs/ebiaklm7tP0ykOyjm7KGfgNcPyo.js,0.0
 wpengine.com,https://cdn.mouseflow.com/projects/1666c133-25b1-494b-bdeb-59ee57f7a371.js,0.0
 www.techtarget.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 sendbird.com,https://ob.togreencolumn.com/i/675eafd5b765e72847ef6a89c2f94849.js,0.0
@@ -178,7 +178,7 @@ www.jcpenney.com,https://www.jcpenney.com/scJt_e/Qm/oo/yFJ-/GM4XCA02o7HVs/p9kEhN
 www.jcpenney.com,https://www.static-jcpenney.com/prod6/yoda-site-components/2503.0.18/dll/site_vendors.bbec410f2ec5f31cb76d.client.dll.js,0.0
 www.amazon.com.tr,https://www.amazon.com.tr/,0.0
 www.amazon.com.tr,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.com.tr,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1.0
+www.amazon.com.tr,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,0.0
 www.bigolive.tv,https://mc.yandex.ru/metrika/tag.js,0.0
 www.bigolive.tv,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 msu.edu,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
@@ -247,7 +247,7 @@ www.mgid.com,https://www.mgid.com/node_modules_openreplay_tracker_dist_lib_index
 shop.mango.com,https://shop.mango.com/xI__Opy_/bh8/i7d/rqN1cRxO2P/a5iYXGLJSXbQi93X/QD9g/OxYiU/GEKHSw,0.0
 www.company.rt.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.amocrm.ru,https://mc.yandex.ru/metrika/watch.js,0.0
-www.vistaprint.com,https://cdn.quantummetric.com/qscripts/quantum-vistaprint.js,1.0
+www.vistaprint.com,https://cdn.quantummetric.com/qscripts/quantum-vistaprint.js,0.0
 www.bitdefender.com,https://euob.ofgreencolumn.com/sxp/i/9890752fc19726fc8a394d54a189ae9f.js,0.0
 www.bitdefender.com,https://cdn.bizible.com/scripts/bizible.js?account=bitdefender.com,0.0
 www.itu.int,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
@@ -319,7 +319,7 @@ www.tutu.ru,https://cdn1.tu-tu.ru/main-page/_next/static/chunks/pages/_app-dfc49
 escortbabylon.net,https://mc.yandex.ru/metrika/tag.js,0.0
 www.gazeta.pl,https://static.im-g.pl/static/gazeta/gazetapl2018/deploy/hp/2.4.66/js/scripts.min.jsgz,0.0
 www.gazeta.pl,https://biv.gazeta.pl/static/front/ot-iab-consent/master/rodoGuard-ux.js?v29,0.0
-www.hilton.com,https://www.hilton.com/dynjs/ruxitagentjs_ICA15789NPRUVXfghqrtux_10307250124095659.js,0.0
+www.hilton.com,https://www.hilton.com/dynjs/ruxitagentjs_ICA15789NPRUVXfghqrtux_10307250124095659.js,1.0
 www.formstack.com,https://ob.thisgreencolumn.com/i/4aa0535bd936563b425bdd01cf61c633.js,0.0
 www.formstack.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.carnival.com,https://s.go-mpulse.net/boomerang/YYZC5-9SJ3E-WBPEW-9KUY8-9QZWF,0.0
@@ -358,7 +358,7 @@ www.iqiyi.com,https://www.iqiyi.com/static/202533115536/js/main.js,0.0
 www.ucoz.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.amazon.sa,https://www.amazon.sa/,0.0
 www.amazon.sa,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.sa,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1.0
+www.amazon.sa,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,0.0
 nspk.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.schwab.com,https://www.schwab.com/,0.0
 www.schwab.com,https://www.schwab.com/Uoqtc_cG76N3/I-/sdgwGkOfkS/7NubmzhkEuwk7J9c/KBQRAQ/WktwFFg/COAYC,0.0
@@ -379,7 +379,7 @@ beboo.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 fon.bet,https://mc.yandex.ru/metrika/tag.js,0.0
 fon.bet,https://origin.bk6bba-resources.com/webStaticRed/website/1.48.134/24668.js,0.0
 www.1gb.ru,https://mc.yandex.ru/metrika/tag.js,0.0
-umschool.net,https://egumcdn.umschool.net/_nuxt/_sentry.BfcKCkIs.js,1.0
+umschool.net,https://egumcdn.umschool.net/_nuxt/_sentry.BfcKCkIs.js,0.0
 umschool.net,https://mc.yandex.ru/metrika/tag.js,0.0
 www.dailyrecord.co.uk,https://feliz-web.data.tm-awx.com/smile-web.min.js,0.0
 www.udel.edu,https://siteimproveanalytics.com/js/siteanalyze_8344.js,0.0
@@ -468,7 +468,7 @@ rosneft.ru,https://mc.yandex.ru/metrika/watch.js,0.0
 rosneft.ru,https://yastatic.net/s3/front-maps-static/maps-front-jsapi-v2-1/2.1.79-15597074/out/release/full-d2e8661372c4158a15f059dae1b0cd844f2efe96.js,0.0
 www.rsc.org,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.thespruce.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
-www.victoriassecret.com,https://www.victoriassecret.com/assets/m3484-tXqtEHJNQ7xgOL1JQ7dHA/vendor/signals-sdk-5.2.9.js,1.0
+www.victoriassecret.com,https://www.victoriassecret.com/assets/m3484-tXqtEHJNQ7xgOL1JQ7dHA/vendor/signals-sdk-5.2.9.js,0.0
 uiowa.edu,https://siteimproveanalytics.com/js/siteanalyze_66356803.js,0.0
 www.japantimes.co.jp,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 1cfresh.com,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -505,7 +505,7 @@ cbrpay.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.ankr.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.interfax.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.interfax.ru,https://tns-counter.ru//ncc/counter.js,0.0
-www.aap.org,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,0.0
+www.aap.org,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,1.0
 www.webtoons.com,https://www.webtoons.com/static/bundle/vendor-b269977a0a34e73ca479.js,0.0
 pruffme.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.kinopoisk.ru,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -531,9 +531,9 @@ www.usergate.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.turkishairlines.com,https://www.turkishairlines.com/iv_PxvWBh/EUcs/gGOkM/w18rWUZXE/mYr3kzcVb4DX/XGwSAQ/EwtZVkg/NWW8,0.0
 www.lufthansa.com,https://www.lufthansa.com/L-3LHxsyO/OHPq4/Qyjw/a3OuJtNfp9DNV9EV/dj0xMno/Tg0zOT5c/ckoB,0.0
 faberlic.com,https://mc.yandex.ru/metrika/tag.js,0.0
-faberlic.com,https://florm-app.pr2.flnet.su/florm.79deb399a8e9d74426c8.js line 18 > eval,1.0
-faberlic.com,webpack://florm/./elements/dist/bundle.js?,1.0
-faberlic.com,https://faberlic.com/ru/ru/assets/js/antibot.js,0.0
+faberlic.com,https://florm-app.pr2.flnet.su/florm.79deb399a8e9d74426c8.js line 18 > eval,0.0
+faberlic.com,webpack://florm/./elements/dist/bundle.js?,0.0
+faberlic.com,https://faberlic.com/ru/ru/assets/js/antibot.js,1.0
 www.drweb.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.zyxel.com,https://u.heatmap.it/log.js,0.0
 www.liquidweb.com,https://ob.segreencolumn.com/i/1437218892810ddad02c40ebd6451087.js,0.0
@@ -625,7 +625,7 @@ www.nur.kz,https://mc.yandex.ru/metrika/tag.js,0.0
 www.nur.kz,https://www.nur.kz/_astro/page.CRI2a7RE.js,0.0
 www.clemson.edu,https://siteimproveanalytics.com/js/siteanalyze_59124.js,0.0
 ouraring.com,https://cdn.noibu.com/collect-core.js,0.0
-ouraring.com,https://cdn.noibu.com/collect-recording.js,0.0
+ouraring.com,https://cdn.noibu.com/collect-recording.js,1.0
 www.hhs.gov,https://siteimproveanalytics.com/js/siteanalyze_6282609.js,0.0
 www.powerschool.com,https://ob.powerstarsbuilding.com/i/2eca62a4caf8c93ca6e1a9618098bb5a.js,1.0
 www.powerschool.com,https://cdn.bizible.com/scripts/bizible.js,1.0
@@ -664,7 +664,7 @@ www.cgtn.com,https://www.cgtn.com/ line 543 > injectedScript,0.0
 www.cgtn.com,https://www.google-analytics.com/analytics.js,0.0
 www.amazon.eg,https://www.amazon.eg/,0.0
 www.amazon.eg,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1.0
-www.amazon.eg,https://images-eu.ssl-images-amazon.com/images/I/216YVwoRFDL.js,1.0
+www.amazon.eg,https://images-eu.ssl-images-amazon.com/images/I/216YVwoRFDL.js,0.0
 www.dnb.com,https://www.dnb.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.lc-56934e461ff6c436f962a5990541a527-lc.min.js,0.0
 www.dnb.com,https://www.dnb.com/72gk2vuUJhkHA/aIlwQz0fLZ8/BUA/fEYitJNttLc2Yk/N35QKw/cwU/hVUV7a3s,0.0
 www.pagina12.com.ar,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
@@ -676,8 +676,8 @@ www.rebrandly.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.mamba.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.mamba.ru,https://static.wmbcdn.com/uniweb/js/modern/vendors.79117d554f8b3073.js,0.0
 mambu.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
-www.elong.com,https://m.elongstatic.com/dun/pd/dun.min.1.1.4.2.js,0.0
-www.elong.com,https://m.elongstatic.com/hotel_pc_i18n/product/_nuxt/_szhotel.0-0-3-1e0dcf69.js,0.0
+www.elong.com,https://m.elongstatic.com/dun/pd/dun.min.1.1.4.2.js,1.0
+www.elong.com,https://m.elongstatic.com/hotel_pc_i18n/product/_nuxt/_szhotel.0-0-3-1e0dcf69.js,1.0
 www.lookmovie2.to,https://mc.yandex.ru/metrika/tag.js,0.0
 www.rtvslo.si,https://si.hit.gemius.pl/hmapxy.js,0.0
 www.zerohedge.com,https://www.zerohedge.com/ line 33 > injectedScript,0.0
@@ -799,7 +799,7 @@ playmods.net,https://yandex.ru/ads/system/context.js,0.0
 playmods.net,https://yastatic.net/partner-code-bundles/1223714/49e4574c03679a23240d.js,0.0
 www.sojern.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.subway.com,https://cdn.quantummetric.com/qscripts/quantum-subway.js,0.0
-www.subway.com,https://www.subway.com/Q4s5TiM8R/AkjPk/ibQw/iOazzDwLaNkb3w/AXwXOCo/bkUf/aCklcXU,0.0
+www.subway.com,https://www.subway.com/Q4s5TiM8R/AkjPk/ibQw/iOazzDwLaNkb3w/AXwXOCo/bkUf/aCklcXU,1.0
 www.easyjet.com,https://www.easyjet.com/public/da8be7d722e97ca1085a61fc1d564b920c001677d848,0.0
 www.easyjet.com,https://www.easyjet.com/W-rQf1/Hlbd/0lI/xzR/9pRrLiXx/3YOGQtVbz08pEDYp/HyNpQmYB/GSB/5KFMuI2I,0.0
 www.iastate.edu,https://siteimproveanalytics.com/js/siteanalyze_37570.js,0.0
@@ -838,7 +838,7 @@ utraff.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.rogers.com,https://cdn.quantummetric.com/qscripts/quantum-rogers.js,0.0
 www.rogers.com,https://js-cdn.dynatrace.com/jstag/17a2d2e42ea/bf45860xtq/ce606e7a9dfabb4e_complete.js,0.0
 www.rogers.com,https://www.rogers.com/rbrw/polyfills.06e7e5a400502f9a.js,0.0
-www.dior.com,https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js,0.0
+www.dior.com,https://js-cdn.dynatrace.com/jstag/1658b155923/bf29769wnv/4fbccf4e405e9bf2_complete.js,1.0
 www.host-food.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.1tv.ru,https://yandex.ru/ads/system/context.js,0.0
 www.1tv.ru,https://yastatic.net/partner-code-bundles/1223714/49e4574c03679a23240d.js,0.0
@@ -879,7 +879,7 @@ www.guess.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.ana.co.jp,https://ob.segreencolumn.com/i/143b55a6c6770fef76a28ea2de6d22fd.js,0.0
 www.autotrader.com,https://www.autotrader.com/_D2eQiKThy7ISsMPnw/Ouap8kfzbX2X7EOt/BX5qK2AC/C0kL/TTU5HSQ,0.0
 www.autotrader.com,https://www.autotrader.com/,0.0
-www.very.co.uk,https://www.very.co.uk/assets/static/js/celebrus/celebrusInsert-prd-v9.7.2.js,1.0
+www.very.co.uk,https://www.very.co.uk/assets/static/js/celebrus/celebrusInsert-prd-v9.7.2.js,0.0
 www.very.co.uk,https://www.very.co.uk/assets/static/js/elastic-apm-rum.umd.min-5-16-0.js,0.0
 www.medicare.gov,https://cdn.quantummetric.com/qscripts/quantum-medicare.js,0.0
 vds-shop.com,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -946,7 +946,7 @@ www.sunrise.ch,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.ncl.ac.uk,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.khl.ru,https://mc.yandex.ru/metrika/watch.js,0.0
 wonporn.com,https://mc.yandex.ru/metrika/tag.js,0.0
-mattermost.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,0.0
+mattermost.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,1.0
 3sex.com,https://js.wpushsdk.com/npc/sdk/wpu/npush.m.js,0.0
 b-port.com,https://mc.yandex.ru/metrika/tag.js,0.0
 litgorod.ru,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -980,7 +980,7 @@ www.overstock.com,https://www.overstock.com/cdn/wpm/bf1d1a304wfe79281ap5a5ffd39m
 www.darmankade.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.usertesting.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 azeriseks.org,https://06551440cf.3dbe0d1f5f.com/ec24f7400ef207d0e22c366f6b9af2f6.js,0.0
-www.solaredge.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,0.0
+www.solaredge.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,1.0
 javsek.net,https://06551440cf.3dbe0d1f5f.com/f9ae536ce24b65454a202e87518b84be.js,0.0
 news.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.10jqka.com.cn,https://s.thsi.cn/cb?js/home/;TAN.min.js;commonLog_v2.min.js,0.0
@@ -1004,7 +1004,7 @@ robertsspaceindustries.com,https://robertsspaceindustries.com/plt-client/assets/
 krikya.io,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.designboom.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 nj.gov,https://siteimproveanalytics.com/js/siteanalyze_6291948.js,0.0
-www.healthychildren.org,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,0.0
+www.healthychildren.org,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,1.0
 www.ivi.tv,https://gambit-parent.dfs.ivi.ru/dist/release_25.03.04_7c9f397b/esnext/Sentry.71d1fb.js,0.0
 www.dailystar.co.uk,https://feliz-web.data.tm-awx.com/smile-web.min.js,0.0
 steaminventoryhelper.com,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -1047,7 +1047,7 @@ inn.ru,https://mc.yandex.ru/metrika/watch.js,0.0
 www.ups.com,https://www.ups.com/assets/3ea5928890ceb2cb6785ea730fd896f2d0453d5260d,0.0
 www.ups.com,https://www.ups.com/dXHcxWkMzQPsDLtaIg/up3V4DwiOVtV/SB5AegE/Px/N2CwA0CCg,0.0
 www.oracle.com,https://www.oracle.com/6EOBG95l0KRMsAsSaV5xxfLM/6bz5XDiVau/KBUDbAE/TWttWyJ/XWTw?v=dfa45fde-45d7-9541-38fb-2d034b611721,0.0
-2gis.ae,https://d-assets.2gis.ru/map2d.247981d122d2fb4abcaf.js,0.0
+2gis.ae,https://d-assets.2gis.ru/map2d.247981d122d2fb4abcaf.js,1.0
 2gis.ae,https://d-assets.2gis.ru/vendor.7c1d840c24270ae07c89.js,1.0
 2gis.ae,https://d-assets.2gis.ru/jquery-1.3.2.ffd55119b9ed083b1fc6.js,0.0
 2gis.ae,https://d-assets.2gis.ru/app.c1fa0c7502180f2f679a.js,0.0
@@ -1059,7 +1059,7 @@ www.trendmicro.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.shutterstock.com,https://www.shutterstock.com/tags.js,0.0
 www.shutterstock.com,https://www.shutterstock.com/,0.0
 sberdevices.ru,https://mc.yandex.ru/metrika/tag.js,0.0
-sberdevices.ru,https://cdn-app.sberdevices.ru/dynamic2/sberdevices/aa11c72b/_next/static/chunks/pages/_app-5bc013f37b08759f.js,1.0
+sberdevices.ru,https://cdn-app.sberdevices.ru/dynamic2/sberdevices/aa11c72b/_next/static/chunks/pages/_app-5bc013f37b08759f.js,0.0
 www.xerox.com,https://siteimproveanalytics.com/js/siteanalyze_52214.js,0.0
 www.cdkeys.com,https://bat.bing.com/p/insights/s/0.8.0,0.0
 84167.ru,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -1101,8 +1101,8 @@ www.mgmresorts.com,https://www.mgmresorts.com/static/ba4336e352ea0ea8744a5f66ba3
 megapersonals.eu,https://mc.yandex.ru/metrika/tag.js,0.0
 www.pnc.com,https://www.pnc.com/f7sHeE/ks/4A/J33G/o4U4IFpVMUbeM/7kEOcwS67kzN/GzM7GGwHGgM/fT/spd2VUMVI,0.0
 www.pnc.com,https://www.pnc.com/ruxitagentjs_ICA7NVfqrux_10299241001084140.js,0.0
-www.pnc.com,https://www.u46.pnc.com/783807/address.js,1.0
-www.pnc.com,https://www.pnc.com/en/personal-banking.html line 163 > Function,1.0
+www.pnc.com,https://www.u46.pnc.com/783807/address.js,0.0
+www.pnc.com,https://www.pnc.com/en/personal-banking.html line 163 > Function,0.0
 www.pnc.com,https://www.pnc.com/etc/designs/pnc-foundation/clientlibs/pnc-foundation.glassBox.min.js,0.0
 reshak.ru,https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js,0.0
 www.limelight.inc,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
@@ -1139,7 +1139,7 @@ www.fdj.fr,https://datadome.fdj.fr/tags.js,0.0
 sexkomix2.com,https://mc.yandex.ru/metrika/tag.js,0.0
 modyolo.com,https://mc.yandex.ru/metrika/tag.js,0.0
 moskva.mts.ru,https://mc.yandex.ru/metrika/tag.js,0.0
-moskva.mts.ru,https://moskva.mts.ru/polyfills.d2ebe47bd88b3ac8.js,1.0
+moskva.mts.ru,https://moskva.mts.ru/polyfills.d2ebe47bd88b3ac8.js,0.0
 www.iamcook.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 xbit.jp,https://bs.nakanohito.jp/b3/bi.js,0.0
 zrelki.link,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -1317,7 +1317,7 @@ www.ntv.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.ntv.ru,https://tns-counter.ru/ncc/counter.js,0.0
 tuoitre.vn,https://static.contineljs.com/core/lgnews.js,0.0
 catchthemes.com,https://catchthemes.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.51,0.0
-www.ml.com,https://tags.tiqcdn.com/utag/bofa/ml/prod/utag.12.js?utv=ut4.48.202502150111,1.0
+www.ml.com,https://tags.tiqcdn.com/utag/bofa/ml/prod/utag.12.js?utv=ut4.48.202502150111,0.0
 digitalturbine.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 stihi.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 tgstat.com,https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js,0.0
@@ -1430,7 +1430,7 @@ www.bell.ca,https://www.bell.ca/ruxitagentjs_ICA7NQVfghqrtux_10301241007103824.j
 hqporner.com,https://mc.yandex.ru/metrika/watch.js,0.0
 www.domestika.org,https://b27ad30591c9.edge.sdk.awswaf.com/b27ad30591c9/457d1de1da5a/challenge.js,0.0
 www.domestika.org,https://b27ad30591c9.6156b017.us-east-2.token.awswaf.com/b27ad30591c9/457d1de1da5a/6af5cd20fc13/challenge.js,0.0
-www.dynata.com,https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.8.1-min.js.gz,0.0
+www.dynata.com,https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.8.1-min.js.gz,1.0
 www.engagelab.com,https://res.engagelab.net/oversea/e/website/2025/_nuxt/Ccf7O0lU.js,0.0
 www.techrepublic.com,https://ob.forseasky.com/i/b65d7d7005337f7bd4bd291d1d48ebb9.js,0.0
 www.polsatnews.pl,https://pro.hit.gemius.pl/hmapxy.js,0.0
@@ -1523,7 +1523,7 @@ tgstat.ru,https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js,0.0
 www.workable.com,https://ob.esnlocco.com/i/04bbbf57c65e96d995cebeed992ed634.js,0.0
 www.workable.com,https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.14.4/rollbar.min.js,0.0
 luxupnetwork.com,https://mc.yandex.ru/metrika/tag.js,0.0
-www.smartlook.com,https://content.smartlook.cloud/otel/2aac16cba3b9b9327a35798aacb8c6a309e3e0ce/splunk-otel-web-session-recorder.js,0.0
+www.smartlook.com,https://content.smartlook.cloud/otel/2aac16cba3b9b9327a35798aacb8c6a309e3e0ce/splunk-otel-web-session-recorder.js,1.0
 360.yandex.com,https://yastatic.net/s3/psf/ps-tuning/disk-public-landing.e4bd1c70bc4b58ae80d6.js,0.0
 360.yandex.com,https://mc.yandex.ru/metrika/watch.js,0.0
 www.levi.com,https://www.levi.com/assets/15cec9e07e2373222d8670fe1f24f4cc2db91243e9e,0.0
@@ -1591,7 +1591,7 @@ www.ornl.gov,https://siteimproveanalytics.com/js/siteanalyze_6024880.js,0.0
 988lifeline.org,https://analytics.silktide.com/36b7995bff5c252991633431c3821f9b.js,0.0
 www.escapefromtarkov.com,https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js,0.0
 www.sberbank.com,https://mc.yandex.ru/metrika/watch.js,0.0
-www.sberbank.com,https://mc.yandex.ru/metrika/tag.js,1.0
+www.sberbank.com,https://mc.yandex.ru/metrika/tag.js,0.0
 truthsocial.com,https://truthsocial.com/packs/js/error-7db641272571e45d4c8e.chunk.js,1.0
 www.mediastream.co,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.furusato-tax.jp,https://www.furusato-tax.jp/assets/js/choice/sentry.js?1741195366,0.0
@@ -1622,7 +1622,7 @@ www.publix.com,https://www.publix.com/zdZIYXZGy7uVOgU7wsOQ7mV9/mOaSGQEVuOXh/c3wn
 www.ntt.com,https://js.ptengine.jp/3c74f4a1.js,0.0
 www.storyblok.com,https://www.storyblok.com/_astro/page.CHdeYrz7.js,1.0
 fpt.vn,https://static.contineljs.com/core/lgnews.js,0.0
-www.luckyorange.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,0.0
+www.luckyorange.com,https://tools.luckyorange.com/core/core.js?v=b4b9dfc,1.0
 tunnel.imo.im,https://mc.yandex.ru/metrika/tag.js,0.0
 tunnel.imo.im,https://static-act.imoim.net/assets-s/imo-official/js/chunk-vendors.f4adb0ff.js,0.0
 www.thredup.com,https://cdn.logr-ingest.com/logger-1.min.js,0.0
@@ -1673,7 +1673,7 @@ www.rentalcars.com,https://d8c14d4960ca.edge.sdk.awswaf.com/d8c14d4960ca/f34f5ca
 www.rentalcars.com,https://client.rum.us-east-1.amazonaws.com/1.5.x/cwr.js,0.0
 www.nationwide.com,https://www.nationwide.com/_upAPk/Tkjpz/g4G-8/bCDJ/uYEhtJXVVQfrp5/J00FPXoLAw/JEBQIE/w9VAI,0.0
 www.nationwide.com,https://www.nationwide.com/,0.0
-www.nationwide.com,https://nexus.ensighten.com/nationwide/prod/code/6dbf2e9253cf3461cd38a89f07a85e48.js?conditionId0=4936698,1.0
+www.nationwide.com,https://nexus.ensighten.com/nationwide/prod/code/6dbf2e9253cf3461cd38a89f07a85e48.js?conditionId0=4936698,0.0
 soc-club.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 soc-club.ru,https://soc-club.ru/633c39bec2c19d1d92fd87ad.js?1736845687239,0.0
 www.808ball.com,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -1752,7 +1752,7 @@ www.trade.gov,https://siteimproveanalytics.com/js/siteanalyze_51582.js,0.0
 www.rabobank.nl,https://www.rabobank.nl/QKB8/PRS0/qoo_k/TxjNw/7O1YQhc2QYXk/dW1ccAkbBg/EUcYZC/N3bQcB,0.0
 www.rabobank.nl,https://www.rabobank.nl/static/msp/global-sites/polyfills-GLVWNE25.js,0.0
 www.proximus.be,https://www.proximus.be/ruxitagentjs_ICANQVfghqrtux_10299241001084140.js,0.0
-www.rigla.ru,https://www.rigla.ru/js/chunk-vendors-f0bdbb55.js,1.0
+www.rigla.ru,https://www.rigla.ru/js/chunk-vendors-f0bdbb55.js,0.0
 www.rigla.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.indigo.ca,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 tonhub.com,https://mc.yandex.ru/metrika/tag.js,1.0
@@ -1911,7 +1911,7 @@ eyekraft.ru,https://eyekraft.ru/web/content/1842397-fdcbe0a/web.assets_common.js
 eyekraft.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 eyekraft.ru,https://balancer-cloud.livetex.ru/get-client/?site_id=161997&version=23.29.1876-0a5aa07&target=path&rnd=1zrxxfztsqw,0.0
 citrt.ru,https://mc.yandex.ru/metrika/tag.js,0.0
-thebase.com,https://tracking.sitest.jp/tag?p=64bf4bcea8394&u=https%3A%2F%2Fthebase.com%2F,0.0
+thebase.com,https://tracking.sitest.jp/tag?p=64bf4bcea8394&u=https%3A%2F%2Fthebase.com%2F,1.0
 marketiq.com,https://moderate.cleantalk.org/1.1.35/ct-bot-detector.min.js,0.0
 www.bristolpost.co.uk,https://feliz-web.data.tm-awx.com/smile-web.min.js,0.0
 asimjofa.com,https://asimjofa.com/cdn/wpm/b55ec44bcw9257550bp53d792c9m349925d7m.js,1.0
@@ -1939,7 +1939,7 @@ www.agilent.com,https://www.agilent.com/store/ruxitagentjs_A7NQVfghqrx_103072501
 www.godaddy.com,https://www.godaddy.com/eGsgr-LaaIYB/ikslHW/TE5LC9/Q1aXcz0tw9NckiQE/aG4BHUZtAQ/djVEM04E/UVw,0.0
 ca.yahoo.com,https://s.yimg.com/ss/analytics-3.54.3.js,0.0
 olympustaff.com,https://js.capndr.com/popunder-admanager/build.m.js,0.0
-www.samsung.com,https://samsungscript.beusable.net/rum.v1.0.0.min.js,0.0
+www.samsung.com,https://samsungscript.beusable.net/rum.v1.0.0.min.js,1.0
 www.samsung.com,https://cdn.decibelinsight.net/i/14121/1818599/di.js,0.0
 www.native-instruments.com,https://cdn.noibu.com/collect-core.js,0.0
 www.native-instruments.com,https://cdn.noibu.com/collect-recording.js,0.0
@@ -2023,10 +2023,10 @@ cyberprotect.ru,https://smartcaptcha.yandexcloud.net/captcha.js?render=onload&on
 www.classy.org,https://script.crazyegg.com/pages/versioned/tracking-scripts/2e5b718b94824cf6268b787aef9203eb.js,0.0
 www.classy.org,https://script.crazyegg.com/pages/versioned/common-scripts/79c737c2791fe6392c47120c36c7eaf0.js,0.0
 www.hostinger.com,https://www.hostinger.com/_nuxt/CDk1-5AM.js,0.0
-www.key.com,https://js-agent.newrelic.com/nr-spa-compressor-1.260.1.min.js,0.0
-www.key.com,https://js-agent.newrelic.com/nr-spa-1.260.1.min.js,0.0
-www.key.com,https://js-agent.newrelic.com/nr-spa-recorder-1.260.1.min.js,0.0
-www.key.com,https://www.key.com/keyimages/js/keybank.js,0.0
+www.key.com,https://js-agent.newrelic.com/nr-spa-compressor-1.260.1.min.js,1.0
+www.key.com,https://js-agent.newrelic.com/nr-spa-1.260.1.min.js,1.0
+www.key.com,https://js-agent.newrelic.com/nr-spa-recorder-1.260.1.min.js,1.0
+www.key.com,https://www.key.com/keyimages/js/keybank.js,1.0
 www.makerbot.com,https://script.crazyegg.com/pages/versioned/tracking-scripts/2e5b718b94824cf6268b787aef9203eb.js,0.0
 www.makerbot.com,https://script.crazyegg.com/pages/versioned/common-scripts/79c737c2791fe6392c47120c36c7eaf0.js,0.0
 www.rippling.com,https://www.rippling.com/_next/static/chunks/pages/_app-9467d8b89690cf07.js,0.0
@@ -2045,7 +2045,7 @@ www.yieldify.com,https://td.yieldify.com/yieldify/code.js?w_uuid=8400ed3b-9bb8-4
 www.ruangguru.com,https://u.heatmap.it/log.js,0.0
 www.betsson.com,https://www.betsson.com/assets/vendor.b31122d6054c2644.js,0.0
 www.betsson.com,https://c6572918bc10.edge.sdk.awswaf.com/c6572918bc10/a3b0bb466576/challenge.js,0.0
-www.betsson.com,https://www.betsson.com/assets/groupib-standard.js,0.0
+www.betsson.com,https://www.betsson.com/assets/groupib-standard.js,1.0
 www.swarthmore.edu,https://siteimproveanalytics.com/js/siteanalyze_66356461.js,0.0
 www.creighton.edu,https://siteimproveanalytics.com/js/siteanalyze_26434.js,0.0
 www.parker.com,https://www.parker.com/public/ae977f3d75e7a1cc9cb167782caacb304bea84f62171,0.0
@@ -2098,9 +2098,9 @@ www.jetstar.com,https://www.jetstar.com/7leB3i/fgZo74/uciC5/yqDuK/-l/Giz1bfmpbSc
 www.jetstar.com,https://www.jetstar.com/public/492d788f8da4dad585845f989e448a6a39001124eaf7,0.0
 www.jetstar.com,https://www.jetstar.com/7leB3i/fgZo74/uciC5/yqDuK/-l/Qpz1bfb9Ec/Fy5qKgcmAQ/bGJYNl8/saGU?v=303a05b9-6dc8-a2ca-3d84-fadbd6a21721,0.0
 www.jetstar.com,https://www.jetstar.com/assets/version7.44.25.03.0128611/scripts/vendor.bundle.js,0.0
-www.comparethemarket.com,https://celebrus.comparethemarket.com/CelebrusInsert.js,1.0
+www.comparethemarket.com,https://celebrus.comparethemarket.com/CelebrusInsert.js,0.0
 www.comparethemarket.com,https://www.comparethemarket.com/ruxitagentjs_ICA7Nfhqrux_10307250124095659.js,0.0
-www.hsbc.co.uk,https://tags.tiqcdn.com/utag/hsbc/uk-rbwm/prod/utag.3842.js?utv=ut4.47.202401091811,1.0
+www.hsbc.co.uk,https://tags.tiqcdn.com/utag/hsbc/uk-rbwm/prod/utag.3842.js?utv=ut4.47.202401091811,0.0
 www.hsbc.co.uk,https://www.hsbc.co.uk/etc.clientlibs/hsbc/global/clientlibs/appd.min.9a0d6a727f8b92f3a4cce4a6985afacb.js,0.0
 www.powerschool.com,https://cdn.bizible.com/scripts/bizible.js,0.0
 www.powerschool.com,https://ob.powerstarsbuilding.com/i/2eca62a4caf8c93ca6e1a9618098bb5a.js,0.0
@@ -2224,7 +2224,7 @@ cyberpanel.net,https://mc.yandex.ru/metrika/watch.js,0.0
 www.hamrah-mechanic.com,https://mc.yandex.ru/metrika/tag.js,0.0
 www.irishmirror.ie,https://feliz-web.data.tm-awx.com/smile-web.min.js,0.0
 www.cloudbeds.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
-www.beusable.net,https://script.beusable.net/rum.v1.0.0.min.js,0.0
+www.beusable.net,https://script.beusable.net/rum.v1.0.0.min.js,1.0
 www.beusable.net,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.noon.com,https://f.nooncdn.com/s/app/2024/com-v4/61052b0707cf5a1b8ac7e9ae21cfd409fbb70554/bigalog/_next/_static/_next/static/chunks/59c6eb5a-b94a33132994512a.js,0.0
 spark-tell.ru,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -2260,7 +2260,7 @@ broadsign.com,https://bat.bing.com/p/insights/s/0.8.0,0.0
 broadsign.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 javhd.com,https://mc.yandex.ru/metrika/tag.js,0.0
 javhd.com,https://c6.cdnjhd.com/javhd/assets/build/3087.fa71f216.js,0.0
-www.mongodb.com,https://www.mongodb.com/_next/static/chunks/pages/_app-3f2b264d01f2198d.js,0.0
+www.mongodb.com,https://www.mongodb.com/_next/static/chunks/pages/_app-3f2b264d01f2198d.js,1.0
 www.mongodb.com,https://euob.michiganrobotflower.com/sxp/i/1026a1528f8727653fd96984e7b20597.js,0.0
 cloudcovermusic.com,https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-f0dba7d78a1b9d5228df29b663501ad6br.js,0.0
 cloudcovermusic.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
@@ -2297,7 +2297,7 @@ www.watsons.com.tr,https://www.watsons.com.tr/static/8785a8fc63b5a7154aed1563468
 ctc.ru,https://ctc.ru/static/js/174.0031f3f9.chunk.js,0.0
 ctc.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 ctc.ru,https://ctc.ru/static/js/main.1f4c4220.js,0.0
-society6.com,https://society6.com/cdn/wpm/b55ec44bcw9257550bp53d792c9m349925d7m.js,0.0
+society6.com,https://society6.com/cdn/wpm/b55ec44bcw9257550bp53d792c9m349925d7m.js,1.0
 www.oschina.net,https://hm.baidu.com/hm.js?a411c4d1664dd70048ee98afe7b28f0b,0.0
 www.finam.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.finam.ru,https://libs-cdn.finam.ru/auth-widget/@8.js,0.0
@@ -2516,7 +2516,7 @@ www.itemfix.com,https://js.ad-score.com/score.min.js?pid=1000925&tt=g#tid=13539&
 www.itemfix.com,https://js.ad-score.com/score.min.js?pid=1000925&tt=g#tid=13539&l1=225759&l2=Quantcast_AdobeDyn&l3=7906307&l4=5094161&l5=&l6=&l7=0&utid=B15D2679-8A91-8BDB-4FBC-D96F7D3E99B1&creative_type=display&adid=ftdiv7906307&pub_app=&pub_domain=itemfix.com&uid=&cb=843191.7420584124&pub_ts=1735233024&371742867,0.0
 www.proprofs.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 tryfi.com,https://tryfi.com/_next/static/chunks/52774a7f-88644bff7f79c4e2.js,0.0
-tryfi.com,https://decagon.ai/loaders/fi.js,0.0
+tryfi.com,https://decagon.ai/loaders/fi.js,1.0
 tvip.tv,https://mc.yandex.ru/metrika/watch.js,0.0
 www.cainiao.com,https://g.alicdn.com/AWSC/et/1.82.2/et_f.js,0.0
 www.cainiao.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0.0
@@ -2570,7 +2570,7 @@ www.vesti.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.vesti.ru,https://tns-counter.ru//ncc/counter.js,0.0
 clodo.ru,https://mc.yandex.ru/metrika/watch.js,0.0
 www.imedia.ru,https://mc.yandex.ru/metrika/tag.js,1.0
-soax.com,https://ampl.soax.com/libs/plugin-session-replay-browser-1.6.13-min.js.gz,0.0
+soax.com,https://ampl.soax.com/libs/plugin-session-replay-browser-1.6.13-min.js.gz,1.0
 nrf.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 igooods.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 igooods.ru,https://d08c8689-6e6c-446a-a17e-9660952a07fb.selcdn.net/static/8545-342d5a95a7784e2b2fae.js,0.0
@@ -2738,7 +2738,7 @@ www.sport-express.net,https://ss.sport-express.net/fb/js/chunk-vendors.js?v=ca45
 creatium.io,https://mc.yandex.ru/metrika/tag.js,0.0
 www.harley-davidson.com,https://cdn.decibelinsight.net/i/14182/1870816/di.js,0.0
 www.terabox.app,https://s3.teraboxcdn.com/general-conf/ymg/2068/abclite-2068-s.js?v=0.24960339298465928,0.0
-www.arm.com,https://tools.luckyorange.com/core/core.js?v=79fde5a,0.0
+www.arm.com,https://tools.luckyorange.com/core/core.js?v=79fde5a,1.0
 timeweb.com,https://timeweb.com/_nuxt/commons/app.c05b6c157bff10518843.js,0.0
 www.courant.com,https://js.matheranalytics.com/s/ma89701/197837617/wp/ml.js?cb=1680,0.0
 www.homedepot.ca,https://www.homedepot.ca/G3ykvo5i56YXZeifcg/kYVi8fDc0pht/eQUCVyttMg/RwAKKz/MrKjU,0.0
@@ -2762,7 +2762,7 @@ dic.academic.ru,https://mc.yandex.ru/metrika/tag.js,0.0
 www.iadb.org,https://www.iadb.org/sites/default/files/js/js_gqZ4UOeXV6xbcBkNaYbRSNlmtgmRpHfnGm13VwFqseQ.js?scope=footer&delta=3&language=en&theme=outline_frontend&include=eJx9z2EKwjAMBeALteuRStpmMyxtSpMienqHCCoO_-V9hPACpZhAuwV4Dcs6pJnL0goZSQOOFVVhw_Bh_mVOqXbG2KXPHhNL3jWcmJNpTA3j8zq2Egoqbe3XK9CJrgh2weHp6KAuM0Iz4D1AT9l8n4kpOzUwUqOsoYzZgZe3uC5XHIki1oQlfCWfmfD4-e_KVJNKdxwPCUR5hw,0.0
 www.tierpoint.com,https://moderate.cleantalk.org/1.1.35/ct-bot-detector.min.js,0.0
 www.tierpoint.com,https://www.tierpoint.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.52,0.0
-activeprospect.com,https://cdn.trustedform.com/trustedform-1.10.9.js,0.0
+activeprospect.com,https://cdn.trustedform.com/trustedform-1.10.9.js,1.0
 www.liongard.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.bjs.com,https://www.bjs.com/,0.0
 www.bjs.com,https://www.bjs.com/NemUe0jBkEFcC8UtZhxh/QEJYSbzEYmEf/DB4jAg/SmFUX0Np/dDcB,0.0
@@ -2781,7 +2781,7 @@ www.bloomsbury.com,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
 www.manheim.com,https://cdn.lrkt-in.com/logger-1.min.js,0.0
 www.blm.gov,https://siteimproveanalytics.com/js/siteanalyze_88289.js,0.0
 www.hsbc.com.hk,https://hsbc.edge.sdk.awswaf.com/hsbc/dxp/challenge.js,0.0
-www.hsbc.com.hk,https://tags.tiqcdn.com/utag/hsbc/hk-rbwm/prod/utag.1537.js?utv=ut4.46.202401221037,1.0
+www.hsbc.com.hk,https://tags.tiqcdn.com/utag/hsbc/hk-rbwm/prod/utag.1537.js?utv=ut4.46.202401221037,0.0
 www.hsbc.com.hk,https://www.hsbc.com.hk/etc.clientlibs/hsbc/global/clientlibs/appd.min.9a0d6a727f8b92f3a4cce4a6985afacb.js,0.0
 pushub.net,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.morelogin.com,https://mc.yandex.ru/metrika/tag.js,0.0
@@ -2810,7 +2810,7 @@ www.cedars-sinai.org,https://siteimproveanalytics.com/js/siteanalyze_66750.js,0.
 coda.io,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0.0
 www.comptia.org,https://t.contentsquare.net/uxa/38f6b4fbf8030.js,0.0
 www.comptia.org,https://www.clarity.ms/s/0.8.0/clarity.js,0.0
-www.bsigroup.com,https://tools.luckyorange.com/core/core.js?v=a19a519,0.0
+www.bsigroup.com,https://tools.luckyorange.com/core/core.js?v=a19a519,1.0
 www.frwd.energy,https://mc.yandex.ru/metrika/tag.js,0.0
 www.lguplus.com,https://www.lguplus.com/static/uhdc-pcfo/41f6d6ac66017730850daea1f7fa4f1db3117dd7/_nuxt/vendors/app_ed6903f6b6de2b7ec91a.js,0.0
 www.ocs.ru,https://mc.yandex.ru/metrika/tag.js,0.0
