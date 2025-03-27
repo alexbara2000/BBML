@@ -9,6 +9,8 @@ model_files = glob.glob("models/*.pkl")
 models = []
 for mf in model_files:
     try:
+        # if "Neural" not in mf:
+        #     continue
         model = joblib.load(mf)
         models.append(model)
         print(f"Loaded model: {mf}")

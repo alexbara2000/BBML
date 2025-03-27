@@ -1,5 +1,5 @@
 domain,scripts,Prediction
-www.cloudflare.com,https://cdn.logr-ingest.com/logger-1.min.js,0
+www.cloudflare.com,https://cdn.logr-ingest.com/logger-1.min.js,1
 www.amazon.com,https://www.amazon.com/,1
 www.amazon.com,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1
 www.amazon.com,https://images-na.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1
@@ -12,9 +12,9 @@ www.dropbox.com,https://cfl.dropboxstatic.com/static/atlas/warp/warp_page_edison
 www.oracle.com,https://s.go-mpulse.net/boomerang/DXNLE-YBWWY-AR74T-WMD99-77VRA,0
 www.oracle.com,https://www.oracle.com/SkhqYu/A/r/LVvccUyVlg/w0uzk4Oik5aG/PyJxA10D/M1p5ZDlB/ABU?v=314e499c-9916-bcf8-299c-92b1875a1721,0
 openai.com,https://openai.com/_next/static/chunks/33894-49664996d7ac3f1d.js,0
-www.appsflyer.com,https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-a25e3eb5ddc4e5a2479e96d7f64d3ce5br.js,1
+www.appsflyer.com,https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-a25e3eb5ddc4e5a2479e96d7f64d3ce5br.js,0
 www.appsflyer.com,https://dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/opa-fb3af40832f517fdaf85fc8cb0f53fbdbr.js,0
-1c.ru,https://mc.yandex.ru/metrika/tag.js,1
+1c.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.netangels.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.amazon.co.uk,https://www.amazon.co.uk/,0
 www.amazon.co.uk,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1
@@ -24,12 +24,12 @@ www.t-mobile.com,https://cdn.quantummetric.com/qscripts/quantum-tmobile.js,0
 www.braze.com,https://js.qualified.com/qualified.js?token=JDB423wPwpJxCWhB,1
 www.quora.com,https://qsbr.cf2.quoracdn.net/-4-ans_frontend-relay-vendor-27-ea2465b559af7eae.webpack,0
 www.temu.com,https://static.kwcdn.com/m-assets/assets/js/5652_4f16b9dfb0605a7d52b7.js,1
-www.walmart.com,https://drfdisvc.walmart.com/swHp8QjYIKReE1un?51cb768d83e31e1d=RatBnTxhwPghZqsWEUnhqsxJ3NmJS9jUFVlpbS3l1Wp95Y4VjAuMr29OTspXZClvT7huNvVwU-T056uiCg1ES0KGN28AWE_F5_gjdF1CuADvHrqBtVu9SBfb_iiC-hoTX0FlQMKGrMX9k7HW9XWiNOzXvdCCyqfUpFBpqHdYwfAIppXJjMpZt1CK283Lh0gVud9O6XjBDV6I4Fr1&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,0
-www.walmart.com,https://drfdisvc.walmart.com/87vETDRZS-EYn5g-?1a90a240a30eed10=L-GVDlqE4Aebm_uI4P4MSk67QANVt3adGPz9EBKQrjwrcIZ6eX8gx1b13WhPfAvBfYNQCq9_UUWuUAa74rsUBcX7sBfHWX7oJ8FBNy3nIjsQ4LSYzttvFpSrW0ti-EwvI-BiR3GNbK276dlQZhwsY7I90gtJSitlJRUhIgk6c48fZ6BblR0P-WACQX5MB4jYsCM3Zqu-D_ErsDgk&jb=3d302e2c68716d7d3d4e696e77702c68796d3546616c7d7024607368753d4e617a6d646d70246279603f44617267666f7a2d38323b3039,0
-www.walmart.com,https://drfdisvc.walmart.com/9rlOvkbBd2Y2ySj7?833007dd8957aa26=9N6bshy2e6KWZvEqM3yXdSp3DHMTdbvtjIekr5NETuyw4ULM_4H3zLvWcA2oVUlLgLtZZzc2n1XVU-PSk5L_agq7MKQveuYw_xMLfbG1_M3ILhKw34ssKrRLI3RdMMJQP7w826-vtG3DoyTCtDIErbpgPkslyD4SY5vtVxiuTqvwwBHp6Js9cyaQLAB8Q7chC2DCBJiLoUJdNCt_&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,0
+www.walmart.com,https://drfdisvc.walmart.com/swHp8QjYIKReE1un?51cb768d83e31e1d=RatBnTxhwPghZqsWEUnhqsxJ3NmJS9jUFVlpbS3l1Wp95Y4VjAuMr29OTspXZClvT7huNvVwU-T056uiCg1ES0KGN28AWE_F5_gjdF1CuADvHrqBtVu9SBfb_iiC-hoTX0FlQMKGrMX9k7HW9XWiNOzXvdCCyqfUpFBpqHdYwfAIppXJjMpZt1CK283Lh0gVud9O6XjBDV6I4Fr1&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,1
+www.walmart.com,https://drfdisvc.walmart.com/87vETDRZS-EYn5g-?1a90a240a30eed10=L-GVDlqE4Aebm_uI4P4MSk67QANVt3adGPz9EBKQrjwrcIZ6eX8gx1b13WhPfAvBfYNQCq9_UUWuUAa74rsUBcX7sBfHWX7oJ8FBNy3nIjsQ4LSYzttvFpSrW0ti-EwvI-BiR3GNbK276dlQZhwsY7I90gtJSitlJRUhIgk6c48fZ6BblR0P-WACQX5MB4jYsCM3Zqu-D_ErsDgk&jb=3d302e2c68716d7d3d4e696e77702c68796d3546616c7d7024607368753d4e617a6d646d70246279603f44617267666f7a2d38323b3039,1
+www.walmart.com,https://drfdisvc.walmart.com/9rlOvkbBd2Y2ySj7?833007dd8957aa26=9N6bshy2e6KWZvEqM3yXdSp3DHMTdbvtjIekr5NETuyw4ULM_4H3zLvWcA2oVUlLgLtZZzc2n1XVU-PSk5L_agq7MKQveuYw_xMLfbG1_M3ILhKw34ssKrRLI3RdMMJQP7w826-vtG3DoyTCtDIErbpgPkslyD4SY5vtVxiuTqvwwBHp6Js9cyaQLAB8Q7chC2DCBJiLoUJdNCt_&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,1
 www.walmart.com,https://www.walmart.com/si/snr.js,0
-www.alibaba.com,https://aeis.alicdn.com/AWSC/et/1.82.2/et_n.js,0
-www.alibaba.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0
+www.alibaba.com,https://aeis.alicdn.com/AWSC/et/1.82.2/et_n.js,1
+www.alibaba.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,1
 ngenix.net,https://mc.yandex.ru/metrika/tag.js,0
 www.sophos.com,https://edge.fullstory.com/s/fs.js,0
 www.reg.ru,https://mc.yandex.ru/metrika/tag.js,0
@@ -40,7 +40,7 @@ www.wiley.com,https://cmp.osano.com/AzZdRbSORDOOzF9W/aaa5a811-bd82-475e-ab7e-fd9
 www.stackadapt.com,https://script.crazyegg.com/pages/versioned/tracking-scripts/2e5b718b94824cf6268b787aef9203eb.js,0
 www.stackadapt.com,https://script.crazyegg.com/pages/versioned/common-scripts/b877520f71040ef9ed2bf59299cddcf8.js,0
 comfortel.pro,https://mc.yandex.ru/metrika/tag.js,0
-www.bitrix24.ru,https://mc.yandex.ru/metrika/tag.js,0
+www.bitrix24.ru,https://mc.yandex.ru/metrika/tag.js,1
 www.bing.com,https://r.bing.com/rp/E33oPkEFg94JdE52ibDzTAvMDO8.br.js,1
 www.bing.com,https://r.bing.com/rp/fRLx_6CnvqXVJrWfd-rx8_xQTMc.br.js,0
 www.bing.com,https://r.bing.com/rp/Rq67mvh8Vlp7jxNy7juK5EbDkBQ.br.js,0
@@ -58,9 +58,9 @@ www.amazon.de,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1
 www.datadoghq.com,https://www.datadoghq.com/static/dd-libs.5aa70da5c5855f87de70f14ddd80c9728373f621276264c389392618e9507bf7b1db87b95066f8bb6afa45bd61eba2ab351a334f4034dc71a293c0bd2f60271b.js,0
 www.prnewswire.com,https://www.clarity.ms/s/0.8.0/clarity.js,0
 onlinepbx.ru,https://mc.yandex.ru/metrika/tag.js,0
-www.cambridge.org,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.cambridge.org,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.noaa.gov,https://siteimproveanalytics.com/js/siteanalyze_6294131.js,0
-www.hotjar.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.hotjar.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.hotjar.com,https://t.contentsquare.net/uxa/cae5a0f6523cc.js,0
 www.amazon.in,https://www.amazon.in/,0
 www.amazon.in,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1
@@ -79,12 +79,12 @@ www.amazon.it,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1
 newrelic.com,https://dev.visualwebsiteoptimizer.com/cdn/edrv/va_gq-a25e3eb5ddc4e5a2479e96d7f64d3ce5br.js,0
 newrelic.com,https://cmp.osano.com/AzZVWOTJtg1WY32RK/cd381ba3-ebca-488c-a528-376a86764609/osano.js?language=en&variant=one,0
 newrelic.com,https://dev.visualwebsiteoptimizer.com/cdn/analysis/4.0/opa-fb3af40832f517fdaf85fc8cb0f53fbdbr.js,0
-www.klaviyo.com,https://spider.australiarevival.com/i/596102f2751010ba2ee94856a2df358e.js,1
-www.klaviyo.com,https://67c8e5c9c915b800082829c4--klaviyo-marketing-site-us.netlify.app/app-f9845f2a3e82b39d961f.js,1
+www.klaviyo.com,https://spider.australiarevival.com/i/596102f2751010ba2ee94856a2df358e.js,0
+www.klaviyo.com,https://67c8e5c9c915b800082829c4--klaviyo-marketing-site-us.netlify.app/app-f9845f2a3e82b39d961f.js,0
 www.amazon.fr,https://www.amazon.fr/,0
 www.amazon.fr,https://m.media-amazon.com/images/I/71EOqyQDjOL.js?AUIClients/FWCIMAssets,1
 www.amazon.fr,https://images-eu.ssl-images-amazon.com/images/I/21QWbBlFHWL.js,1
-www.redhat.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.redhat.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.name.com,https://cdn.quantummetric.com/qscripts/quantum-name.js,1
 www.xbox.com,https://assets-www.xbox.com/xbox-web/static/js/63649.5d7c386d.js,0
 www.att.com,https://cdn.quantummetric.com/qscripts/quantum-att.js,0
@@ -92,12 +92,12 @@ www.avito.ru,https://mc.yandex.ru/metrika/tag.js,1
 www.avito.ru,https://www.avito.st/dstatic/build/client/core-js.afc06ee845ff2534.js,0
 www.rbc.ru,https://mc.yandex.ru/metrika/tag.js,1
 www.rbc.ru,https://tns-counter.ru//ncc/counter.js,0
-www.ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.bing.com,https://r.bing.com/rp/ek3ncKFEuN8Aq_SqC0BArLNRueQ.br.js,1
 www.tiktok.com,https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v17/webapp-desktop/npm-dp-byted-tea-sdk-oversea.9fa9b862559aa53246ca.js,0
 www.tiktok.com,https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.849/index.js,0
 www.nist.gov,https://siteimproveanalytics.com/js/siteanalyze_6017546.js,0
-ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.taobao.com,https://g.alicdn.com/AWSC/et/1.82.8/et_f.js,1
 www.taobao.com,https://o.alicdn.com/tbpc/securitySDK/securitySDK.umd.js,0
 www.taobao.com,https://g.alicdn.com/tbpc/polyfill/1.0.0/index.umd.es5.production.js,1
@@ -106,8 +106,8 @@ www.taobao.com,https://www.taobao.com/ line 8 > injectedScript,0
 www.dailymail.co.uk,https://www.dailymail.co.uk/rta2/v2-mol-3.7.1.min.js,0
 www.dailymail.co.uk,https://www.dailymail.co.uk/home/index.html line 1 > injectedScript,0
 moe.video,https://mc.yandex.ru/metrika/tag.js,0
-www.amazon.com,https://images-na.ssl-images-amazon.com/images/I/31bJewCvY-L.js,1
-www.plesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.amazon.com,https://images-na.ssl-images-amazon.com/images/I/31bJewCvY-L.js,0
+www.plesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.mayoclinic.org,https://cdn.decibelinsight.net/i/14036/705830/di.js,0
 www.mgid.com,https://www.mgid.com/node_modules_openreplay_tracker_dist_lib_index_js.77387000d39ca711.js,0
 www.rt.ru,https://mc.yandex.ru/metrika/tag.js,0
@@ -123,13 +123,13 @@ www.ups.com,https://www.ups.com/assets/3ea5928890ceb2cb6785ea730fd896f2d0453d526
 www.ups.com,https://www.ups.com/dXHcxWkMzQPsDLtaIg/up3V4DwiOVtV/SB5AegE/Px/N2CwA0CCg,0
 www.oracle.com,https://www.oracle.com/6EOBG95l0KRMsAsSaV5xxfLM/6bz5XDiVau/KBUDbAE/TWttWyJ/XWTw?v=dfa45fde-45d7-9541-38fb-2d034b611721,0
 mail.ru,https://mc.yandex.ru/metrika/tag.js,1
-www.trendmicro.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.trendmicro.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.shutterstock.com,https://www.shutterstock.com/tags.js,1
 www.shutterstock.com,https://www.shutterstock.com/,1
 sberdevices.ru,https://mc.yandex.ru/metrika/tag.js,1
 sberdevices.ru,https://cdn-app.sberdevices.ru/dynamic2/sberdevices/aa11c72b/_next/static/chunks/pages/_app-5bc013f37b08759f.js,0
 www.imdb.com,https://www.imdb.com/,0
-mail.ru,https://mc.yandex.ru/metrika/watch.js,0
+mail.ru,https://mc.yandex.ru/metrika/watch.js,1
 www.nic.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.nic.ru,https://www.nic.ru/static/rcweb-bundle-9e397c8be8c127e19383.js,0
 www.homedepot.com,https://www.homedepot.com/,0
@@ -138,9 +138,9 @@ allaboutcookies.org,https://browser.sentry-cdn.com/6.19.7/bundle.min.js,1
 allaboutcookies.org,https://dd.allaboutcookies.org/tags.js,1
 www.ikea.com,https://www.ikea.com/DIqVbdXS-NEofUpRTJzFllDr3sA/f9zaDQmiauNm1t9r/Lg88Mg/KBVyO0/gafEo,0
 shopee.co.id,https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__web_enhance_sap/2.23.308.js,1
-www.zendesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
+www.zendesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,1
 www.fiverr.com,https://cdn.quantummetric.com/qscripts/quantum-fiverr.js,0
-www.aliexpress.com,https://assets.alicdn.com/g/lzd_sec/epssw/0.0.31/epssw.js,0
+www.aliexpress.com,https://assets.alicdn.com/g/lzd_sec/epssw/0.0.31/epssw.js,1
 www.aliexpress.com,https://g.alicdn.com/AWSC/et/1.82.2/et_f.js,1
 www.aliexpress.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,1
 shopee.com.br,https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__web_enhance_sap/2.23.316.js,1
@@ -159,6 +159,6 @@ www.dailymail.co.uk,https://www.dailymail.co.uk/ushome/index.html line 1 > injec
 mail.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.taobao.com,https://g.alicdn.com/AWSC/et/1.82.8/et_f.js,1
 www.taobao.com,https://g.alicdn.com/tbpc/polyfill/1.0.0/index.umd.es5.production.js,1
-www.taobao.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0
+www.taobao.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,1
 www.taobao.com,https://www.taobao.com/?spm=a21t4m.27981689.1997480849.1.6ce011d9LBofeZ line 8 > injectedScript,0
 www.change.org,https://assets.change.org/corgi/assets/js/9f85d6f.es2015/vendors/misc.4a788d3336a5623cfc3c.js,1

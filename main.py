@@ -17,7 +17,20 @@ merged_data = pd.merge(X, y, on=[X.columns[0], X.columns[1]])
 # split data
 X = merged_data.iloc[:, 2:-1]
 y = merged_data.iloc[:, -1]
+
+
+positive_indices = y == 1
+X_train_pos = X[positive_indices]
+y_train_pos = y[positive_indices]
+
+X = pd.concat([X, X_train_pos], ignore_index=True)
+y = pd.concat([y, y_train_pos], ignore_index=True)
+
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+
 
 models = {
     "RandomForest": (RandomForestClassifier(random_state=42), {
