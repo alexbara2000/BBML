@@ -1,16 +1,16 @@
 domain,scripts,Prediction
-www.wellsfargo.com,https://connect.secure.wellsfargo.com/jenny/nd,
-www.wellsfargo.com,https://c1.wfinterface.com/tracking/gb/detector-dom.min.js,
-www.fnbalaska.com,https://script.hotjar.com/modules.4784248f2d9a4852c40b.js,
-www.pnc.com,https://www.pnc.com/en/personal-banking.html line 163 > Function,
-www.bankofamerica.com,https://secure1.bac-assets.com/sparta/client/helper/spa-assets/components/utilities/client-helper/behbio/vendb/4.0.0/js/vendb.js,
-www.bankofamerica.com,https://tags.tiqcdn.com/utag/bofa/main/prod/utag.62.js?utv=ut4.48.202502150155,
-gcbaz.com,https://script.hotjar.com/modules.4784248f2d9a4852c40b.js,
-gcbaz.com,https://gcbaz.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.52,
-www.key.com,https://js-agent.newrelic.com/nr-spa-recorder-1.260.1.min.js,
-www.key.com,https://www.key.com/keyimages/js/keybank.js,
-www.key.com,https://js-agent.newrelic.com/nr-spa-compressor-1.260.1.min.js,
-www.key.com,https://js-agent.newrelic.com/nr-spa-1.260.1.min.js,
-www.ccombank.com,https://www.ccombank.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.45.2,
-www.wilmingtontrust.com,https://cdn.quantummetric.com/qscripts/quantum-mtb.js,
-www.citi.com,https://www.citi.com/cbol-pre-login-static-assets/cbol-core-assets/cedric/cedric.js,
+www.wellsfargo.com,https://connect.secure.wellsfargo.com/jenny/nd,1
+www.wellsfargo.com,https://c1.wfinterface.com/tracking/gb/detector-dom.min.js,0
+www.fnbalaska.com,https://script.hotjar.com/modules.4784248f2d9a4852c40b.js,0
+www.pnc.com,https://www.pnc.com/en/personal-banking.html line 163 > Function,2
+www.bankofamerica.com,https://secure1.bac-assets.com/sparta/client/helper/spa-assets/components/utilities/client-helper/behbio/vendb/4.0.0/js/vendb.js,1
+www.bankofamerica.com,https://tags.tiqcdn.com/utag/bofa/main/prod/utag.62.js?utv=ut4.48.202502150155,1
+gcbaz.com,https://script.hotjar.com/modules.4784248f2d9a4852c40b.js,0
+gcbaz.com,https://gcbaz.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.52,0
+www.key.com,https://js-agent.newrelic.com/nr-spa-recorder-1.260.1.min.js,0
+www.key.com,https://www.key.com/keyimages/js/keybank.js,o
+www.key.com,https://js-agent.newrelic.com/nr-spa-compressor-1.260.1.min.js,0
+www.key.com,https://js-agent.newrelic.com/nr-spa-1.260.1.min.js,0
+www.ccombank.com,https://www.ccombank.com/wp-content/plugins/cleantalk-spam-protect/js/apbct-public-bundle.min.js?ver=6.45.2,0
+www.wilmingtontrust.com,https://cdn.quantummetric.com/qscripts/quantum-mtb.js,0
+www.citi.com,https://www.citi.com/cbol-pre-login-static-assets/cbol-core-assets/cedric/cedric.js,1
