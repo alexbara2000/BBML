@@ -11,8 +11,8 @@ www.temu.com,https://static.kwcdn.com/m-assets/assets/js/5652_4f16b9dfb0605a7d52
 www.walmart.com,https://drfdisvc.walmart.com/swHp8QjYIKReE1un?51cb768d83e31e1d=RatBnTxhwPghZqsWEUnhqsxJ3NmJS9jUFVlpbS3l1Wp95Y4VjAuMr29OTspXZClvT7huNvVwU-T056uiCg1ES0KGN28AWE_F5_gjdF1CuADvHrqBtVu9SBfb_iiC-hoTX0FlQMKGrMX9k7HW9XWiNOzXvdCCyqfUpFBpqHdYwfAIppXJjMpZt1CK283Lh0gVud9O6XjBDV6I4Fr1&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,1
 www.walmart.com,https://drfdisvc.walmart.com/87vETDRZS-EYn5g-?1a90a240a30eed10=L-GVDlqE4Aebm_uI4P4MSk67QANVt3adGPz9EBKQrjwrcIZ6eX8gx1b13WhPfAvBfYNQCq9_UUWuUAa74rsUBcX7sBfHWX7oJ8FBNy3nIjsQ4LSYzttvFpSrW0ti-EwvI-BiR3GNbK276dlQZhwsY7I90gtJSitlJRUhIgk6c48fZ6BblR0P-WACQX5MB4jYsCM3Zqu-D_ErsDgk&jb=3d302e2c68716d7d3d4e696e77702c68796d3546616c7d7024607368753d4e617a6d646d70246279603f44617267666f7a2d38323b3039,1
 www.walmart.com,https://drfdisvc.walmart.com/9rlOvkbBd2Y2ySj7?833007dd8957aa26=9N6bshy2e6KWZvEqM3yXdSp3DHMTdbvtjIekr5NETuyw4ULM_4H3zLvWcA2oVUlLgLtZZzc2n1XVU-PSk5L_agq7MKQveuYw_xMLfbG1_M3ILhKw34ssKrRLI3RdMMJQP7w826-vtG3DoyTCtDIErbpgPkslyD4SY5vtVxiuTqvwwBHp6Js9cyaQLAB8Q7chC2DCBJiLoUJdNCt_&jb=3f302e246a7b6d77374e6b6c75702e6a716f3f4e696477722e627b6a7f3d4461726f646f722462716235446b7867646d782d3a30333233,1
-www.alibaba.com,https://aeis.alicdn.com/AWSC/et/1.82.2/et_n.js,0
-www.alibaba.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0
+www.alibaba.com,https://aeis.alicdn.com/AWSC/et/1.82.2/et_n.js,2
+www.alibaba.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,2
 amplitude.com,https://amplitude.com/_next/static/chunks/pages/_app-53e5c03f7beda2e8.js,2
 www.bitrix24.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.bing.com,https://r.bing.com/rp/E33oPkEFg94JdE52ibDzTAvMDO8.br.js,2
@@ -40,9 +40,9 @@ www.rbc.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
 www.bing.com,https://r.bing.com/rp/ek3ncKFEuN8Aq_SqC0BArLNRueQ.br.js,2
 ui.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
-www.taobao.com,https://g.alicdn.com/AWSC/et/1.82.8/et_f.js,0
+www.taobao.com,https://g.alicdn.com/AWSC/et/1.82.8/et_f.js,2
 www.taobao.com,https://g.alicdn.com/tbpc/polyfill/1.0.0/index.umd.es5.production.js,0
-www.taobao.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0
+www.taobao.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,2
 www.plesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
 mail.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.trendmicro.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
@@ -55,8 +55,8 @@ allaboutcookies.org,https://dd.allaboutcookies.org/tags.js,1
 shopee.co.id,https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__web_enhance_sap/2.23.308.js,2
 www.zendesk.com,https://script.hotjar.com/modules.ef5986d046c68a8c77c1.js,0
 www.aliexpress.com,https://assets.alicdn.com/g/lzd_sec/epssw/0.0.31/epssw.js,0
-www.aliexpress.com,https://g.alicdn.com/AWSC/et/1.82.2/et_f.js,0
-www.aliexpress.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,0
+www.aliexpress.com,https://g.alicdn.com/AWSC/et/1.82.2/et_f.js,2
+www.aliexpress.com,https://g.alicdn.com/secdev/sufei_data/3.9.14/index.js,2
 shopee.com.br,https://deo.shopeemobile.com/shopee/modules-federation/live/0/shopee__web_enhance_sap/2.23.316.js,0
 www.rbc.ru,https://mc.yandex.ru/metrika/tag.js,0
 www.rambler.ru,https://mc.yandex.ru/metrika/tag.js,0
